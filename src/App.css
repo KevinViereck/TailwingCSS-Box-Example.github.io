@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+/* apply is not accessible without using tailwind/postcss */
+
+/* the apply directive allows us to apply different classes inside our css */
+
+.button {
+  @apply text-white font-mono py-2 px-4 rounded;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blue-button {
+  @apply bg-blue-500 hover:bg-blue-700 button;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.red-button {
+  @apply bg-red-500 hover:bg-red-700 button;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.green-button {
+  @apply bg-green-500 hover:bg-green-700 button;
 }
 
-.App-link {
-  color: #61dafb;
+.table-main {
+  @apply m-auto text-white border-2 border-opacity-50 border-red-400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tr-body {
+  @apply even:bg-purple-400 odd:bg-pink-400;
 }
