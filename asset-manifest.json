@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TailwingCSS-Box-Example.github.io/static/css/main.c0112a26.css",
+    "main.js": "/TailwingCSS-Box-Example.github.io/static/js/main.5673dd23.js",
+    "static/js/787.e7ae2b2f.chunk.js": "/TailwingCSS-Box-Example.github.io/static/js/787.e7ae2b2f.chunk.js",
+    "index.html": "/TailwingCSS-Box-Example.github.io/index.html",
+    "main.c0112a26.css.map": "/TailwingCSS-Box-Example.github.io/static/css/main.c0112a26.css.map",
+    "main.5673dd23.js.map": "/TailwingCSS-Box-Example.github.io/static/js/main.5673dd23.js.map",
+    "787.e7ae2b2f.chunk.js.map": "/TailwingCSS-Box-Example.github.io/static/js/787.e7ae2b2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0112a26.css",
+    "static/js/main.5673dd23.js"
+  ]
+}
